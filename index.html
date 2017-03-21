@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<!-- 
+	META TAGS 
+-->
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Mobile First -->
+	<meta name="description" content="Simple Javascript Calculator App, a project for the freecodecamp.com front-end web developer course">
+	<meta name="keywords" content="web developer freecodecamp javascript calculator">
+	<meta name="author" content="Felipe Marchi">
+		
+	<title>
+
+		JS Calculator
+
+	</title>
+
+<!-- 
+	IMPORTS
+-->
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Font Awesome -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+	<!-- Stylesheet Link -->
+	<link rel="stylesheet" href="stylesheet.css" type="text/css">
+	
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Orbitron:400,900" rel="stylesheet">  
+
+</head>
+
+<body>
+		
+		<div id="calculator-wrapper" class="outer-shade">
+
+			<div id="title">
+				<p>JAVASCRIPT CALCULATOR</p>
+			</div>
+
+			<div id="display" class="inner-shade">
+				<p>0</p>
+			</div>
+
+			<div id="btns-wrapper">
+				<table id="btns">
+					<tr>
+						<td><button class="btn" id="btn-AC">AC</button></td>
+						<td><button class="btn" id="btn-CE">CE</button></td>
+						<td><button class="btn" id="btn-percent">%</button></td>
+						<td><button class="btn" id="btn-div">/</button></td>
+					</tr>
+					<tr>
+						<td><button class="btn" id="btn1">1</button></td>
+						<td><button class="btn" id="btn2">2</button></td>
+						<td><button class="btn" id="btn3">3</button></td>
+						<td><button class="btn" id="btn-times">x</button></td>
+					</tr>
+					<tr>
+						<td><button class="btn" id="btn4">4</button></td>
+						<td><button class="btn" id="btn5">5</button></td>
+						<td><button class="btn" id="btn6">6</button></td>
+						<td><button class="btn" id="btn-minus">-</button></td>
+					</tr>
+					<tr>
+						<td><button class="btn" id="btn7">7</button></td>
+						<td><button class="btn" id="btn8">8</button></td>
+						<td><button class="btn" id="btn9">9</button></td>
+						<td><div id="btn-plus-wrapper"><button class="btn" id="btn-plus">+</button></div></td>
+					</tr>
+					<tr>
+						<td><button class="btn" id="btn0">0</button></td>
+						<td><button class="btn" id="btn-dot">.</button></td>
+						<td><button class="btn" id="btn-equals">=</button></td>
+						<!-- <td><button class="btn">=</button></td> -->
+					</tr>
+
+				</table>
+				
+
+			</div>
+
+		</div>
+		<!-- End of calculator -->
+
+</body>
+
+<!--
+ SCRIPTS
+-->
+		
+	<!-- JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+	
+
+	<!-- Custom Script -->
+	<script src="script.js"></script>
+
+
+</html>

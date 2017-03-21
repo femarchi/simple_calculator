@@ -1,0 +1,8 @@
+# Sublime Project Files
+
+*.sublime-project
+*.sublime-workspace
+
+# Folders
+
+fonts/

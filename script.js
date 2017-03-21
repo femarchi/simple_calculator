@@ -36,8 +36,7 @@ $(document).ready(function() {
 		} else {
 			error();
 		}		
-		
-		// alert(onDisplay);
+
 	});
 
 	function insertNum(num){
@@ -132,9 +131,3 @@ $(document).ready(function() {
 	}
 
 }); //end of $(document).ready();
-
-
-//(num) op num eq
-//(num op num) op num eq
-//((num op num) op num) op num eq
-//num op eq = num op samenum eq
